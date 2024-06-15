@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+body{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+#dubba{
+    width: 100%;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+}
+#dubba>div{
+    margin-bottom: 20px;
+}
+#dubba>div:first-child{
+    height: auto;
+    width: 40%;
+}
+#dubba>div:first-child>img{
+    height: 100%;
+    width: 100%;
+}
+#dubba>div:last-child{
+    height: auto;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#dubba>div:last-child>p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+#navbar>div{
+    height: 100%;
+}
+#logo{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+#logo>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo>div:first-child{
+    height: 100%;
+    width: 30%;
+}
+#youtube{
+    width: 60%;
+}
+#youtube>img{
+    width: 100%;
+}
+#search{
+    width: 50%;
+    /* margin-left: -150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 70%;
+    height: 50%;
+}
+button{
+    height: 55%;
+    width: 15%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+i{
+    font-size: 150%;
+    cursor: pointer;
+}
+#rest{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#rest>div{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}

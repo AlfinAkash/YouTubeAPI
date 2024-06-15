@@ -1,0 +1,15 @@
+#logo{
+    height: auto;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#player{
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+}
