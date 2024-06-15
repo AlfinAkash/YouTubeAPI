@@ -1,6 +1,6 @@
 # Youtube CLONE:
 Youtube Clone.
-This is an individual project that was made for educational purpose by Mehul (fw17_0133).
+This is an individual project that was made for educational purpose by Alfin
 
 This project is a clone of [Youtube](https://www.youtube.com/) which is an online video sharing and social media platform.
 
